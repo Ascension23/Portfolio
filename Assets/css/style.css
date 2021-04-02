@@ -1,12 +1,12 @@
-* {
-    background-color: 
-}
+
+
 nav {
     color: white;
     background: black;
     display: flex;
     padding-top: 30px;
     justify-content: center;
+    border-radius: 25px;
 }
 
 ul {
@@ -29,7 +29,7 @@ li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration:none;
+    /* text-decoration:none; */
   }
   
 li a:hover:not(.active) {
@@ -42,19 +42,34 @@ h2 {
 footer {
     font-weight: bolder;
     text-align: center;
+    padding: 100px 50px ;
 }
 .active {
     background-color: red;
   }
 
-  
-img {
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: black;
+    padding: 10px;
+  }
+
+.grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+#workContent img {
     height: 250px;
     width: 400px;
  }
 
- a:link, a:visited {
-    background-color: red;
+a:link, a:visited {
+    /* background-color: red; */
     color: white;
     padding: 15px 25px;
     text-align: center;
@@ -62,18 +77,54 @@ img {
     display: inline-block;
   }
   
-  a:hover, a:active {
+a:hover, a:active {
     background-color: red;
   }
 
- #Adrian {
+#Adrian {
    object-fit: cover;
    width:auto;
    height: 250px;
+   max-width: 100%;
 }
- #firstWork {
-    
+
+#firstWork img {
+    height: auto;
+    width: 600px;
+    max-width: 100%;
  }
+
+ aside {
+  /* width: 100%; */
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: red;
+  text-align:center;
+  display:flex;
+  border-radius: 25px;
+  position:absolute;
+  margin:auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+
+article,
+nav {
+    flex-direction: column;
+}
+
+aside {
+    order: 2;
+}
+ 
+header {
+    background: #772014;
+}
+ 
+}
 
 
 /* ul {

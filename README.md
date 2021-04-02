@@ -12,4 +12,5 @@ https://github.com/Ascension23/Portfolio
 https://github.com/Ascension23
 
 ### Screenshot
-<img src="./Assets/images/Portfolio Page.html.jpg">
+![Portfolio Page html](https://user-images.githubusercontent.com/77472152/113460445-acb42d00-93cd-11eb-91e6-9d8ebd3f57de.png)
+

@@ -1,19 +1,24 @@
 
 
-nav {
+/* nav {
     color: white;
     background: black;
     display: flex;
     padding-top: 30px;
     justify-content: center;
     border-radius: 25px;
+} */
+
+body {
+background-image: linear-gradient(white, grey, black);
+
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: #333;
     position: fixed;
     top: 0;
@@ -26,15 +31,15 @@ li {
   
 li a {
     display: block;
-    color: white;
+    /* color: white; */
     text-align: center;
     padding: 14px 16px;
-    /* text-decoration:none; */
   }
   
 li a:hover:not(.active) {
-    background-color: black;
+    background-color:red;
   }
+
 h2 {
       font-weight: bold;
   }
@@ -43,7 +48,9 @@ footer {
     font-weight: bolder;
     text-align: center;
     padding: 100px 50px ;
+    color: white;
 }
+
 .active {
     background-color: red;
   }
@@ -56,8 +63,6 @@ footer {
   }
 
 .grid-item {
-    /* background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8); */
     padding: 20px;
     font-size: 30px;
     text-align: center;
@@ -66,12 +71,13 @@ footer {
 #workContent img {
     height: 250px;
     width: 400px;
+    padding: 8px;
+    border-radius: 20px;
  }
 
 a:link, a:visited {
-    /* background-color: red; */
     color: white;
-    padding: 15px 25px;
+    padding: 5px 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -79,23 +85,32 @@ a:link, a:visited {
   
 a:hover, a:active {
     background-color: red;
+    border-radius: 25px;
   }
 
 #Adrian {
    object-fit: cover;
    width:auto;
-   height: 250px;
+   height: 200px;
    max-width: 100%;
+   border-radius: 50%;
+}
+
+.circle {
+  shape-outside: circle(50%);
+  width: 200px;
+  height: 200px;
+  float: left;
 }
 
 #firstWork img {
     height: auto;
     width: 600px;
     max-width: 100%;
+    border-radius: 20px;
  }
 
  aside {
-  /* width: 100%; */
   padding-left: 15px;
   margin-left: 15px;
   float: right;
@@ -109,10 +124,14 @@ a:hover, a:active {
   max-width: 100%;
 }
 
+#aboutMe {
+  padding-top: 40px;
+}
+
 @media screen and (max-width: 768px) {
 
 article,
-nav {
+.navbar {
     flex-direction: column;
 }
 
@@ -125,24 +144,3 @@ header {
 }
  
 }
-
-
-/* ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-li {
-    display: inline;
-    float: right;
-    
-}
-#workContent {
-    height: auto; 
-    width: auto; 
-    max-width: 300px; 
-    max-height: 300px;
-} */

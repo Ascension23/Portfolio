@@ -11,7 +11,10 @@
 
 body {
 background-image: linear-gradient(white, grey, black);
+}
 
+.navbar {
+  
 }
 
 ul {
@@ -36,9 +39,9 @@ li a {
     padding: 14px 16px;
   }
   
-li a:hover:not(.active) {
+/* li a:hover:not(.active) {
     background-color:red;
-  }
+  } */
 
 h2 {
       font-weight: bold;
@@ -71,8 +74,9 @@ footer {
 #workContent img {
     height: 250px;
     width: 400px;
-    padding: 8px;
+    /* padding: 8px; */
     border-radius: 20px;
+    box-shadow: 10px 5px 5px black;
  }
 
 a:link, a:visited {
@@ -81,11 +85,13 @@ a:link, a:visited {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    border-radius: 20px;
   }
   
-a:hover, a:active {
+a:hover, a:active *:not([style="hidden"]) {
     background-color: red;
     border-radius: 25px;
+    box-shadow: 10px 5px 5px red;
   }
 
 #Adrian {
@@ -94,6 +100,7 @@ a:hover, a:active {
    height: 200px;
    max-width: 100%;
    border-radius: 50%;
+   box-shadow: 10px 5px 5px black;
 }
 
 .circle {
@@ -130,8 +137,7 @@ a:hover, a:active {
 
 @media screen and (max-width: 768px) {
 
-article,
-.navbar {
+article {
     flex-direction: column;
 }
 

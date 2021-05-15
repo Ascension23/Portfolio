@@ -13,8 +13,22 @@ body {
 background-image: linear-gradient(white, grey, black);
 }
 
-.navbar {
-  
+.mainNav {
+  height: 44px;
+
+}
+
+.navbar-nav {
+  padding:5px;
+}
+
+.nav-link {
+  padding:90px;
+  width:150px
+}
+
+.secondP {
+  padding-left: 212px;
 }
 
 ul {
@@ -88,7 +102,7 @@ a:link, a:visited {
     border-radius: 20px;
   }
   
-a:hover, a:active *:not([style="hidden"]) {
+a:hover, a:active {
     background-color: red;
     border-radius: 25px;
     box-shadow: 10px 5px 5px red;
@@ -129,6 +143,10 @@ a:hover, a:active *:not([style="hidden"]) {
   position:absolute;
   margin:auto;
   max-width: 100%;
+}
+
+#contact {
+  padding:10px;
 }
 
 #aboutMe {

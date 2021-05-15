@@ -12,6 +12,7 @@ https://github.com/Ascension23/Portfolio
 https://github.com/Ascension23
 
 ### Screenshot
-![Adrian's Portfolio](https://user-images.githubusercontent.com/77472152/118380955-f2524100-b59a-11eb-83b1-a5ed0c8276ba.png)
+![AdrianPortfolio](https://user-images.githubusercontent.com/77472152/118381096-3bef5b80-b59c-11eb-8de6-19a271ac6fdc.png)
+
 
 
